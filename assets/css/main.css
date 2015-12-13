@@ -2465,10 +2465,10 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/thumbs/05.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-size: auto,								auto 110%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2489,14 +2489,21 @@
 
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
-			line-height: 1.75em;
+			font-size: 1.6em;
+			line-height: 1em;
+			margin: 0;
+		}
+
+		#header h2 {
+			color: rgba(255, 255, 255, 0.5);
+			font-size: 1.1em;
+			line-height: 1em;
 			margin: 0;
 		}
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8.25em;
 		}
 
 /* Footer */
@@ -2520,7 +2527,7 @@
 
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.4);
-			font-size: 0.8em;
+			font-size: 0.7em;
 			list-style: none;
 			margin: 1em 0 0 0;
 			padding: 0;
