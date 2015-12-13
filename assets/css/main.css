@@ -1599,7 +1599,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2105,12 +2105,13 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
+		margin: -0.8em 0 0em 0;
+		padding-left: 2.5em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			line-height: 1.3em;
 		}
 
 		ul.alt {
@@ -2561,9 +2562,9 @@
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			border-top: solid 3px #efefef;
+			margin: 3em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
